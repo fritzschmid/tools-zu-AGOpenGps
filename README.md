@@ -39,4 +39,18 @@ FeldAusVorlage:
 	  und der Name des Feldes angepasst.
 viel Erfolg damit
 
-Weitere Tools folgen...
+TextzuKml:
+dieses Tool erstellt aus 
+Textkoordinaten aus WGS84 koordinaten 
+KML Dateien die in Google Earth und 
+AGOpenGps als Feld Boundary oder Brachen/Inseln in Felder eingelesen werden können.
+
+!Die Teatdatei kann mit GIS-der AMA Feldstücke erstellt werden!
+Feld im Gis anzeigen - Extras - KordinationToolbox. die Feldpunkte in einer Runde anklicken dabei werden kordinaten im Bild angezeigt
+ist das Feld fertig markiert in dieser Toolbox mit TXT export wird eine Datei (Ordentlichen Namen Angeben) der Kordinaten erstellt.
+Bitte die koordinaten in eine richtung um die Feldgrenze anlegen!
+
+diese Datei kann mit dem Programm gefiltert und als kml ausgegeben werden
+
+die Anwendung mit leer.kml und die erzeugten Textfelddateien im gleichen ordner verwenden.
+
