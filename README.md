@@ -1,41 +1,49 @@
 # toolss-zu-AGOpenGps
-zusatztools für AGOpenGps
-Hallo AGOpenGps Nutzer!
+Abgeänderte Version AgOpenGps_V307
+zur Simulationsfahrt über Felder mit Simulierten Gpssiglalen... nicht zur verwendung am Traktor etc
 
-FeldAusVorlage:
-  Zusatztool zum Einkopieren von angelegten Felder für AGOpenGPS
-  Die Datei FeldAusVorlage.exe muss im Ordner in dem sich der Ordner Fields befindet sein!
-  in diesem Ordner muss ebenfalls ein Ordner mit FieldsVorlage mit den darin enthaltenen Feldordner vorhanden sein! 
-  verknüpfung auf Taskleiste wird danach empfolen.
+Anpassungen die Ich gut finde:
 
-    Programm selber:
-    Dir Felder werden in der Liste angezeigt.
-	    Wenn die Schaltfläche [VorlageFelder Auflisten] geklicht wird, 
-		  werden alle Felder der Vorlage (ordner FieldsLorlage) aufgelistet.
-	  Wenn die Schaltfläche [VorhandeneFelder Auflisten] geklicht wird, 
-		  werden alle Felder aus Ordner (Fields) von AGOpenGPS aufgelistet.
+zusammengeräumter Bildschirm
 
-  wird ein Feld in der Liste ausgewählt erscheint dieses Feld im darüberstehenden Textfeld
-  hier den Namen ergänzen oder ändern...
-  mit der Schaltfläche [Feld aus Auswahl erstellen] 
-	  wird das Feld (Ordner) mit allen Dateien der Auswahl 
-	  als neues Feld (Ordner) angelegt
-	  vorhandene Sections als neue(leere) Datei eingefügt
-	  und der Name des Feldes angepasst.
-viel Erfolg damit
+unter Fahrzeug - Guidance Checkbox damit in der Übersicht AB & Kurven mit Namen angezeigt werden   
 
-TextzuKml:
-dieses Tool erstellt aus 
-Textkoordinaten aus WGS84 koordinaten 
-KML Dateien die in Google Earth und 
-AGOpenGps als Feld Boundary oder Brachen/Inseln in Felder eingelesen werden können.
+unter Fahrzeug - Teilbreite Checkbox Sections:ignoriere Feldgrenze. 
+	dabei werden durch Feldgrenzüberschreitungen die Sections bei 
+	Automatikfahrt (Workswitch) nicht ausgeschaltet sondern nur bei Überlappen.
 
-!Die Teatdatei kann mit GIS-der AMA Feldstücke erstellt werden!
-Feld im Gis anzeigen - Extras - KordinationToolbox. die Feldpunkte in einer Runde anklicken dabei werden kordinaten im Bild angezeigt
-ist das Feld fertig markiert in dieser Toolbox mit TXT export wird eine Datei (Ordentlichen Namen Angeben) der Kordinaten erstellt.
-Bitte die koordinaten in eine richtung um die Feldgrenze anlegen!
+Die Strecke Links Unten wird cm genau angezeigt.
 
-diese Datei kann mit dem Programm gefiltert und als kml ausgegeben werden
+Felddaten Links werden mehr Daten angezeigt.
 
-die Anwendung mit leer.kml und die erzeugten Textfelddateien im gleichen ordner verwenden.
+TB Relais (ersten8) und UTurn Relais werden angezeigt.
+
+Menü- Bildschirm - Farben Night/day Modus
+
+Empfangssignal -> Dialog erweitert:
+
+Reiter Datenstream: - ist Originalfenster.
+
+für die weiteren Reiter muss eine Maschine mit Arbeitsbreite 2 cm länge 1cm angelegt werden
+	und zb als Messpunkt gespeichert werden das in dieser Version möglich ist.
+
+Reiter Punkt Suchen: - Dabei kann ein Koordinatenpunkt mit der Antenne gesucht werden WGS84 oder UTM
+
+Reiter Position: - bei geschlossenem Feld ist das Dateiverzeichnis für die Koordinatendateien 
+	im Rootverzeichnis der Felder (Fields)!
+	ansonsten im Feldordner.(es Sollte immer das Entsprechende Feld angelegt und geöffnet sein!!!
+
+	[Lösche Positionsdateien] Leert die PositionsTextdateien.
+	[Speichere GPS-PositionGanzesFeld] Speichert die Aktuelle Antennenposition in die Datei GPSposition.txt
+	[Speichere GPS-Position Option Ohne Brache] Speichert die Aktuelle Antennenposition in die Datei GPSpositionOB.txt
+	[Speichere GPS-Position Option NUR Brache] Speichert die Aktuelle Antennenposition in die Datei GPSpositionNB.txt
+	[NurPunktSammeln] Speichert die Aktuelle Antennenposition in die Datei GPSpositionNP.txt
+	->alle Punkte werden auch in die Datei GPSpositionenAP.txt gespeichert
+	[erstelle KML aus GPS Punkten] erstellt 3 KMLdateien aus Ganzes Feld- Nur Brache- und Ohne Brache- -Dateien gleicher Name wie Oben
+
+	Grenzsteine oder Masten Brunnendeckel markiere ich mit Flagge zusätzlich damit diese im Fahrtfenster angezeigt werden.
+	
+diese Kml kann mit Bounary  Import kml eingelesen werden.
+
+Achtung: immer in einer Runde das Feld Abtasten!
 
