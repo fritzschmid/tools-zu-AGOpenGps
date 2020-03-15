@@ -1,15 +1,18 @@
-Abge‰nderte Version AgOpenGps_V307
-zur Simulationsfahrt ¸ber Felder mit Simulierten Gpssiglalen... nicht zur verwendung am Traktor etc
+Abge√§nderte Version AgOpenGps_V307
+zur Simulationsfahrt √ºber Felder mit Simulierten Gpssiglalen... nicht zur verwendung am Traktor etc
 
 Anpassungen die Ich gut finde:
 
-zusammenger‰umter Bildschirm
+zusammenger√§umter Bildschirm
 
-unter Fahrzeug - Guidance Checkbox damit in der ‹bersicht AB & Kurven mit Namen angezeigt werden   
+unter Fahrzeug - Guidance Checkbox damit in der √úbersicht AB & Kurven mit Namen angezeigt werden  
+
+Grafische AB/Kurve anlegen - ein Name mit Arbeitsbreite beginnend wird Vorgeschlagen 
+	dieser Name sollte vor anlegen noch √úberarbeitet werden (Breite mit Grenzbereich zB. 420 Nachbarxx)
 
 unter Fahrzeug - Teilbreite Checkbox Sections:ignoriere Feldgrenze. 
-	dabei werden durch Feldgrenz¸berschreitungen die Sections bei 
-	Automatikfahrt (Workswitch) nicht ausgeschaltet sondern nur bei ‹berlappen.
+	dabei werden durch Feldgrenz√ºberschreitungen die Sections bei 
+	Automatikfahrt (Workswitch) nicht ausgeschaltet sondern nur bei √úberlappen.
 
 Die Strecke Links Unten wird cm genau angezeigt.
 
@@ -17,22 +20,24 @@ Felddaten Links werden mehr Daten angezeigt.
 
 TB Relais (ersten8) und UTurn Relais werden angezeigt.
 
-Men¸- Bildschirm - Farben Night/day Modus
+Men√º- Bildschirm - Farben Night/day Modus
+
+AB ausw√§hlen: Fenster vergr√∂√üert und den AnwendeButton GR√úN hinterlegt damit dieser leichter gefunden wird
 
 Empfangssignal -> Dialog erweitert:
 
 Reiter Datenstream: - ist Originalfenster.
 
-f¸r die weiteren Reiter muss eine Maschine mit Arbeitsbreite 2 cm l‰nge 1cm angelegt werden
-	und zb als Messpunkt gespeichert werden das in dieser Version mˆglich ist.
+f√ºr die weiteren Reiter muss eine Maschine mit Arbeitsbreite 2 cm l√§nge 1cm angelegt werden
+	und zb als Messpunkt gespeichert werden das in dieser Version m√∂glich ist.
 
 Reiter Punkt Suchen: - Dabei kann ein Koordinatenpunkt mit der Antenne gesucht werden WGS84 oder UTM
 
-Reiter Position: - bei geschlossenem Feld ist das Dateiverzeichnis f¸r die Koordinatendateien 
+Reiter Position: - bei geschlossenem Feld ist das Dateiverzeichnis f√ºr die Koordinatendateien 
 	im Rootverzeichnis der Felder (Fields)!
-	ansonsten im Feldordner.(es Sollte immer das Entsprechende Feld angelegt und geˆffnet sein!!!
+	ansonsten im Feldordner.(es Sollte immer das Entsprechende Feld angelegt und ge√∂ffnet sein!!!
 
-	[Lˆsche Positionsdateien] Leert die PositionsTextdateien.
+	[L√∂sche Positionsdateien] Leert die PositionsTextdateien.
 	[Speichere GPS-PositionGanzesFeld] Speichert die Aktuelle Antennenposition in die Datei GPSposition.txt
 	[Speichere GPS-Position Option Ohne Brache] Speichert die Aktuelle Antennenposition in die Datei GPSpositionOB.txt
 	[Speichere GPS-Position Option NUR Brache] Speichert die Aktuelle Antennenposition in die Datei GPSpositionNB.txt
@@ -40,10 +45,14 @@ Reiter Position: - bei geschlossenem Feld ist das Dateiverzeichnis f¸r die Koord
 	->alle Punkte werden auch in die Datei GPSpositionenAP.txt gespeichert
 	[erstelle KML aus GPS Punkten] erstellt 3 KMLdateien aus Ganzes Feld- Nur Brache- und Ohne Brache- -Dateien gleicher Name wie Oben
 
-	Grenzsteine oder Masten Brunnendeckel markiere ich mit Flagge zus‰tzlich damit diese im Fahrtfenster angezeigt werden.
+	werden mehrere Insel in einem Feld n√∂tig diese als NUR BRACHE anlegen - kml erzeugen 
+	und dann im Fieldordner diese KML entsprechned umbenennen (Baum1.kml ...) dann die n√§chste Brachefl√§che etc.
+
+	Grenzsteine oder Masten Brunnendeckel markiere ich mit Flagge zus√§tzlich damit diese im Fahrtfenster angezeigt werden.
 	
 diese Kml kann mit Bounary  Import kml eingelesen werden.
 
 Achtung: immer in einer Runde das Feld Abtasten!
 			
+
 
