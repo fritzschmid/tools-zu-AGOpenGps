@@ -1,4 +1,19 @@
-Abgeänderte Version AgOpenGps_V307
+Abgeänderte Version AgOpenGpsV4310:
+zur Simulationsfahrt über Felder mit Simulierten Gpssiglalen... nicht zur verwendung am Traktor etc
+
+unter Sections Markieren wird erst beim überschreiten der gesamten Teilbreite diese deaktiviert dabei ist beim grenznahen arbeiten immer die teilbreite eingeschalten solange diese nicht das Feld verlässt.
+
+Fahrgassen: diese kann in den optionen eingestellt werden nach startlinie und alle ... fahrten wieder eine fahrgasse. dabei wird das Feld:"Fahrgasse" Grün wenn aktiv und das 8.Byte Bit 1 in den Maschinendaten geschalten.
+
+Linien verschieben abgeändert.
+Linien grafischDesignen und mit Namen zu speichern.
+Auch eine abgefahrene Kurve kann dabei kopiert werden und für eine andere Maschine mit anderer Breite gespeichert und beim ersten einfahren in die kurve muss diese jedoch noch "genullt" werden aber fährt dann gleich die richtige Spur.
+
+ansonsten vom erfinder Perfekt!
+*********************************************************************************************************
+Gernzeinmessen nur mit V37!
+
+Abgeänderte Version AgOpenGps_V37
 zur Simulationsfahrt über Felder mit Simulierten Gpssiglalen... nicht zur verwendung am Traktor etc
 
 Anpassungen die Ich gut finde:
