@@ -3,7 +3,7 @@ zur Simulationsfahrt über Felder mit Simulierten Gpssiglalen... nicht zur verwe
 
 unter Sections Markieren wird erst beim überschreiten der gesamten Teilbreite diese deaktiviert dabei ist beim grenznahen arbeiten immer die teilbreite eingeschalten solange diese nicht das Feld verlässt.
 
-Fahrgassen: diese kann in den optionen eingestellt werden nach startlinie und alle ... fahrten wieder eine fahrgasse. dabei wird das Feld:"Fahrgasse" Grün wenn aktiv und das 8.Byte Bit 1 in den Maschinendaten geschalten.
+Fahrgassen: diese kann in den optionen eingestellt werden nach startlinie und alle ... fahrten wieder eine Fahrgasse. dabei wird das Feld:"Fahrgasse" Grün wenn aktiv und das 8.Byte Bit 1 in den Maschinendaten geschalten. beim klichen der Schaltfläche Fahrgasse kann diese manuell ein"gelb" manuell aus"violett" oder Automatisch"rot/grün" geschalten werden. wenn in den Optionen bei Wiederholung 0 eingegeben wird ist der Automatikmodus deaktiviert.
 
 Linien verschieben abgeändert.
 Linien grafischDesignen und mit Namen zu speichern.
