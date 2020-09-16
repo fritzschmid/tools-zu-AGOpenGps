@@ -1,0 +1,51 @@
+
+V4310 Änderungen FS
+
+V12:
+
+Steer button ist 2 stufig wenn unter geofence bei uturn ein wert >0 eingegeben wird ausser der Button Lenken Ohne Grenze wird geschalten.
+wenn unter geofence 0m dann steerbutton "normal" und lenkt auch ausserhalb der felfgrenzen...
+
+wenn unter geofence >0 dann ist der steerbutton mit 1click (1) im button ersichtlich nur innerhalb geofence und somit auch innerhalb der feldgrenze
+wird ein weiteres mal auf steer geklickt (2) im button ersichtlich dann lenkt er auch wieder ausserhalb geofence und feldgrenze weiter.
+massgeblicher punkt ist der drehpunkt (mitte Hinterachse).
+ist zum manuellen wenden am vorgewende mit automatischer lenk-de / aktivierung sehr praktisch da sich der lenkmotor ausschwenkt und einschwenkt...
+
+
+V11:
+
+Fahrgasse für sähmaschine:
+in optionen muss die erste linie für fahrgasse ausgewählt werden
+und die wiederholung 0-9 (bei 0 keine fahrgassenschaltung). zb start 0 wiederholung 5 dann wird alle 5 breite ab der linie 0 eine fahrgasse optisch im fahrgassenfeld und zum arduino ->maschine byte 8 bit 1 angesteuert.
+wird der button fahrgasse angeklickt wird dieser manuell geschalten 
+gelb -> manuell ein
+lila -> manuell aus
+gruen -> automatisch ein
+rot -> automatisch aus
+blaugrau deaktiviert (bei wiederholung = 0)
+
+im arduino MaschineUSB:
+zb im Setup Arduino LED ausgang(13) für Fahrgassenausgang deklarieren
+  pinMode(13, OUTPUT);
+  
+  und in serialempfang isDataFound..
+      hydLift = Serial.read(); // normaler code
+    //just get the rest of bytes
+    if (Serial.read()==1){digitalWrite(13,HIGH);}else{digitalWrite(13,LOW);}   // diese Zeile abändern die Pinnummer des Ports ggf anpassen
+    Serial.read();  //normaler code
+...
+
+
+V10:
+Tool Ofset nicht 0 kurvenfahrt rechnet seitenversatz.
+
+Markieren und die ansteuerung für teilbreiten über feldgrenze hinaus bis die gesamte teilbreite die grenze überschreitet (wie bei überlappung) Button in den Sections fpr aktivieren/deaktivieren dieser funktion.
+
+linienmanagement mit verschieben und verschiebung speichern im submenü der linie0
+
+grafische linienerstellung:
+es kann ein namen vergeben werden auch nachträgliches ändern der namen möglich.
+auch kopieren von linien und vor allen kurven möglich. sehr gut für gefahrene kurven die gespeichert sind und für andere arbeitsbreiten genutzt werden müssen. am feld in die richtige spur stellen kopierte linie versieben und speichern.
+
+rechts unten im textfeld:
+feldinformationen und maschineninformation
