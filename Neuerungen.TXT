@@ -3,21 +3,23 @@ V4310 Änderungen FS
 
 V12:
 
-Steer button ist 2 stufig wenn unter geofence bei uturn ein wert >0 eingegeben wird ausser der Button Lenken Ohne Grenze wird geschalten.
-wenn unter geofence 0m dann steerbutton "normal" und lenkt auch ausserhalb der felfgrenzen...
+Steer Button ist 2 stufig, wenn unter geofence bei uturn ein Wert >0 eingegeben wird -(ausser der Button Lenken Ohne Grenze) wird geschalten.
+Wenn unter geofence 0m, dann Steerbutton "normal" und lenkt auch ausserhalb der Felfgrenzen...
 
-wenn unter geofence >0 dann ist der steerbutton mit 1click (1) im button ersichtlich nur innerhalb geofence und somit auch innerhalb der feldgrenze
-wird ein weiteres mal auf steer geklickt (2) im button ersichtlich dann lenkt er auch wieder ausserhalb geofence und feldgrenze weiter.
-massgeblicher punkt ist der drehpunkt (mitte Hinterachse).
-ist zum manuellen wenden am vorgewende mit automatischer lenk-de / aktivierung sehr praktisch da sich der lenkmotor ausschwenkt und einschwenkt...
+wenn unter geofence >0 dann ist der Steerbutton mit 1.click (1) im Button ersichtlich nur innerhalb geofence und somit auch innerhalb der Feldgrenze.
+Wird ein weiteres mal auf steer geklickt (2) im Button ersichtlich dann lenkt er auch wieder ausserhalb geofence und Feldgrenze weiter.
+Beim 3.click ist die lenkung dann wieder deaktiviert (0) im Button ersichtlich.
+Massgeblicher Punkt ist der Drehpunkt (mitte Hinterachse).
+Ist zum manuellen wenden am vorgewende mit automatischer lenk-de / aktivierung sehr praktisch da sich der Lenkmotor ausschwenkt und einschwenkt...
 
 
 V11:
 
-Fahrgasse für sähmaschine:
-in optionen muss die erste linie für fahrgasse ausgewählt werden
-und die wiederholung 0-9 (bei 0 keine fahrgassenschaltung). zb start 0 wiederholung 5 dann wird alle 5 breite ab der linie 0 eine fahrgasse optisch im fahrgassenfeld und zum arduino ->maschine byte 8 bit 1 angesteuert.
-wird der button fahrgasse angeklickt wird dieser manuell geschalten 
+Fahrgasse für Sähmaschine:
+In Optionen muss die erste Linie für Fahrgasse ausgewählt werden
+und die Wiederholung 0-9 (bei 0 keine Fahrgassenschaltung). zb start 0 Wiederholung 5 dann wird alle 5 breite ab der linie 0 eine Fahrgasse (typisch bei zb 3m Saat- und 15 m Pflegearbeit).
+Optisch im Fahrgassenfeld und zum arduino ->maschine byte 8 bit 1 angesteuert.
+Wird der Button Fahrgasse angeklickt wird dieser manuell geschalten. beim 3. click wieder Automatikbetrieb. 
 gelb -> manuell ein
 lila -> manuell aus
 gruen -> automatisch ein
@@ -37,15 +39,20 @@ zb im Setup Arduino LED ausgang(13) für Fahrgassenausgang deklarieren
 
 
 V10:
-Tool Ofset nicht 0 kurvenfahrt rechnet seitenversatz.
+Tool Ofset nicht 0 Kurvenfahrt rechnet Seitenversatz.
 
-Markieren und die ansteuerung für teilbreiten über feldgrenze hinaus bis die gesamte teilbreite die grenze überschreitet (wie bei überlappung) Button in den Sections fpr aktivieren/deaktivieren dieser funktion.
+Markieren und die Ansteuerung für Teilbreiten über Feldgrenze hinaus bis die gesamte teilbreite die Grenze überschreitet (wie bei Überlappung) Button in den Sections fpr aktivieren/deaktivieren dieser Funktion.
 
 linienmanagement mit verschieben und verschiebung speichern im submenü der linie0
 
-grafische linienerstellung:
-es kann ein namen vergeben werden auch nachträgliches ändern der namen möglich.
-auch kopieren von linien und vor allen kurven möglich. sehr gut für gefahrene kurven die gespeichert sind und für andere arbeitsbreiten genutzt werden müssen. am feld in die richtige spur stellen kopierte linie versieben und speichern.
+Grafische Linienerstellung:
+es kann ein Namen vergeben werden auch nachträgliches ändern der Namen möglich.
+Auch kopieren von Linien und vor allen Kurven möglich. 
+Sehr gut für gefahrene Kurven die gespeichert sind und für andere Arbeitsbreiten genutzt werden müssen.
+Am Feld in die richtige Spur stellen kopierte Linie verschieben und speichern -los gehts...
 
-rechts unten im textfeld:
-feldinformationen und maschineninformation
+Kurvenauswahl: beim Auswählen von Kurven kann automatisch geglättet werden. 
+
+Textfeld rechts unten:
+Feldinformationen 
+Maschineninformation
