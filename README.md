@@ -18,3 +18,6 @@ Einstellungen für diese version natürlich auch noch eingeben.
 Dann kann sie auch  abwechselnd oder testweise gestartet werden.
 
 Startet diese Datei nicht, so ist das ein windowssicherheitsbedenken...
+
+Wie immer bei agopengps 
+ALLES MIT EIGENVERANTWORTUNG!
