@@ -1,6 +1,10 @@
 
 V4310 Änderungen FS
 
+V15: 
+in den Lenkeinstellungen Stanley ist ein Integralparameter integriert
+dieser nimmt seine funktion auf wenn > 0 ansonst keine regelung und wird nur aktiv wenn die abweichnung zur solllinie <30 cm beträgr und gefahren wird
+
 V14:
 KML aus Antennenpunkt wie bei der von mir Modifizieren Version3.7
 im Button KML links Unten kommt ein Dialog zum Punkte aufnehmen aus der Antennenposition
