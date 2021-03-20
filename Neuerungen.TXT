@@ -1,9 +1,10 @@
 
-V4310 Änderungen FS
+V4310 Ã„nderungen FS
 
-V15: 
+V15:
+Lenken ab 0.1 kmh
 in den Lenkeinstellungen Stanley ist ein Integralparameter integriert
-dieser nimmt seine funktion auf wenn > 0 ansonst keine regelung und wird nur aktiv wenn die abweichnung zur solllinie <30 cm beträgr und gefahren wird
+dieser nimmt seine funktion auf wenn > 0 ansonst keine regelung und wird nur aktiv wenn die abweichnung zur solllinie <30 cm betrÃ¤gr und gefahren wird
 
 V14:
 KML aus Antennenpunkt wie bei der von mir Modifizieren Version3.7
@@ -15,28 +16,28 @@ diese Datei nennt dich GPSPositionenAcker.kml
 
 Meine Vorgehensweise ist immer so:
 Neues Feld aus VorlageFeld - Vorlgefeld erstellen mit neues Feld "0Vrelage" -> Hof 4 punkte aufnehmen dieses dann mit kml import erstellen und speichern.
-dann dieses Feld Öffnen und beim schliessen SpeichernAls mit gewollten Feldnamen Speichern
+dann dieses Feld Ã–ffnen und beim schliessen SpeichernAls mit gewollten Feldnamen Speichern
 dann in diesem feld die Punkte aufnehmen und wieder kml und erstellen...
-feld speichern . feld offnen Vorlage . feld speichern als...nächster feldnamen...
+feld speichern . feld offnen Vorlage . feld speichern als...nÃ¤chster feldnamen...
 ich nimm auch zu echten Grenzsteinen immer eine Flagge auf damit diese bei der Bearbeitung in Feld dargestellt wird.
 
-wenn zu den feldern grenzpunkte in form von wgs84 oder UTM vorliegen können diese auch gesucht werden.
+wenn zu den feldern grenzpunkte in form von wgs84 oder UTM vorliegen kÃ¶nnen diese auch gesucht werden.
 imReiter suchen unter LongitudeEast LatitudeNorth den Wert eingeben und die abweichung zu dieser Stelle wird angezeigt.
 alle aufgenommenne Punkte sind auch hier zu findenPunkt anklicken und die abweichnung dahin wird angezeigt.
 im feld Datenzeilen aus GpsPositionen.txt ist ersichtlich wo die punkte gespeichert werden(Fieldordner/entsprechendenFeld)
 Strecke Messen: Entfernung(null) anklicken und die entfernung untem Im Fenster wird ab nun unten angezeigt.
-es können auch Punkte aus der DateiGpsPositionenSuche.txt angelegt werden - was für profis
+es kÃ¶nnen auch Punkte aus der DateiGpsPositionenSuche.txt angelegt werden - was fÃ¼r profis
 
-nachträglich Punkte entfernen:
-punkt in Liste unter PunktSuchen auswählen und auf Button P-loeschen wied dieser entfernt
-nachträglich Punkt hinzufügen:
-in der Liste unter PunktSuchen die Zeile Markieren wo dann der eingefügte Punkt eingefügt werden soll
-Hacken bei PunktInDieserZeileEinfügen setzen
+nachtrÃ¤glich Punkte entfernen:
+punkt in Liste unter PunktSuchen auswÃ¤hlen und auf Button P-loeschen wied dieser entfernt
+nachtrÃ¤glich Punkt hinzufÃ¼gen:
+in der Liste unter PunktSuchen die Zeile Markieren wo dann der eingefÃ¼gte Punkt eingefÃ¼gt werden soll
+Hacken bei PunktInDieserZeileEinfÃ¼gen setzen
 Position->SpeichereGpsPositionGanzesFeld den Punkt erstellen.
 kml neu erzeugen neu importieren ...
 ALLE punkte die aufgenommen wurden werden in dieser V4 auch Grafisch im Feld angezeigt!
 wenn: das Fenster Punkte offen ist und mit X geschlossen wird.
-wird das fenster mit dem KML button in dem es geöffnet wird auch geschlossen verschwinden diese Punkte in der Grfischen Ansicht wieder.
+wird das fenster mit dem KML button in dem es geÃ¶ffnet wird auch geschlossen verschwinden diese Punkte in der Grfischen Ansicht wieder.
 
 
 V13:
@@ -44,7 +45,7 @@ Geofence Lenken- Achse kann ausgewaehlt werden
 
 V12:
 Ntrip zugangsdaten sichten der benutzer passwortinfo 
-kann nur bei leeren feldern aktiviert werden um eingaben zu tätigen,
+kann nur bei leeren feldern aktiviert werden um eingaben zu tÃ¤tigen,
 aber nicht im nachhinein logindaten zu sehen.
 
 Lenken SteerMaxPwm auf 255
@@ -61,8 +62,8 @@ Ist zum manuellen wenden am vorgewende mit automatischer lenk-de / aktivierung s
 
 V11:
 
-Fahrgasse für Sähmaschine:
-In Optionen muss die erste Linie für Fahrgasse ausgewählt werden
+Fahrgasse fÃ¼r SÃ¤hmaschine:
+In Optionen muss die erste Linie fÃ¼r Fahrgasse ausgewÃ¤hlt werden
 und die Wiederholung 0-9 (bei 0 keine Fahrgassenschaltung). zb start 0 Wiederholung 5 dann wird alle 5 breite ab der linie 0 eine Fahrgasse (typisch bei zb 3m Saat- und 15 m Pflegearbeit).
 Optisch im Fahrgassenfeld und zum arduino ->maschine byte 8 bit 1 angesteuert.
 Wird der Button Fahrgasse angeklickt wird dieser manuell geschalten. beim 3. click wieder Automatikbetrieb. 
@@ -73,13 +74,13 @@ rot -> automatisch aus
 blaugrau deaktiviert (bei wiederholung = 0)
 
 im arduino MaschineUSB:
-zb im Setup Arduino LED ausgang(13) für Fahrgassenausgang deklarieren
+zb im Setup Arduino LED ausgang(13) fÃ¼r Fahrgassenausgang deklarieren
   pinMode(13, OUTPUT);
   
   und in serialempfang isDataFound..
       hydLift = Serial.read(); // normaler code
     //just get the rest of bytes
-    if (Serial.read()==1){digitalWrite(13,HIGH);}else{digitalWrite(13,LOW);}   // diese Zeile abändern die Pinnummer des Ports ggf anpassen
+    if (Serial.read()==1){digitalWrite(13,HIGH);}else{digitalWrite(13,LOW);}   // diese Zeile abÃ¤ndern die Pinnummer des Ports ggf anpassen
     Serial.read();  //normaler code
 ...
 
@@ -87,17 +88,17 @@ zb im Setup Arduino LED ausgang(13) für Fahrgassenausgang deklarieren
 V10:
 Tool Ofset nicht 0 Kurvenfahrt rechnet Seitenversatz.
 
-Markieren und die Ansteuerung für Teilbreiten über Feldgrenze hinaus bis die gesamte teilbreite die Grenze überschreitet (wie bei Überlappung) Button in den Sections fpr aktivieren/deaktivieren dieser Funktion.
+Markieren und die Ansteuerung fÃ¼r Teilbreiten Ã¼ber Feldgrenze hinaus bis die gesamte teilbreite die Grenze Ã¼berschreitet (wie bei Ãœberlappung) Button in den Sections fpr aktivieren/deaktivieren dieser Funktion.
 
-linienmanagement mit verschieben und verschiebung speichern im submenü der linie0
+linienmanagement mit verschieben und verschiebung speichern im submenÃ¼ der linie0
 
 Grafische Linienerstellung:
-es kann ein Namen vergeben werden auch nachträgliches ändern der Namen möglich.
-Auch kopieren von Linien und vor allen Kurven möglich. 
-Sehr gut für gefahrene Kurven die gespeichert sind und für andere Arbeitsbreiten genutzt werden müssen.
+es kann ein Namen vergeben werden auch nachtrÃ¤gliches Ã¤ndern der Namen mÃ¶glich.
+Auch kopieren von Linien und vor allen Kurven mÃ¶glich. 
+Sehr gut fÃ¼r gefahrene Kurven die gespeichert sind und fÃ¼r andere Arbeitsbreiten genutzt werden mÃ¼ssen.
 Am Feld in die richtige Spur stellen kopierte Linie verschieben und speichern -los gehts...
 
-Kurvenauswahl: beim Auswählen von Kurven kann automatisch geglättet werden. 
+Kurvenauswahl: beim AuswÃ¤hlen von Kurven kann automatisch geglÃ¤ttet werden. 
 
 Textfeld rechts unten:
 Feldinformationen 
