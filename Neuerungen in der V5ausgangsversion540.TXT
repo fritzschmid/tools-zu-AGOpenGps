@@ -1,0 +1,12 @@
+AOG V5.40 ausgangsversion von Brain Tischler
+
+Abaenderungen unterversion:
+
+
+01:
+-
+die Linien und Kurven können im grafischen erstellungsfenster vor und rückgereiht werden.
+-
+die Fahrgassen Tramlines werden nun richtig angelegt zb ABlinie 15m tramlines 15m 
+dann wird im Erstellungsfendster der Tramlines gleich der richtige Beginnabstand 
+der Linien dargestellt und muss nicht per hand verschoben werden.
