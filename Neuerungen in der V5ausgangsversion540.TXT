@@ -2,11 +2,31 @@ AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
 
-
+02:
+-
+Linien im Grafischen Erstellungsfenster:
+	Arbeitsbreite anstelle von Abstand zur grenze
+	Linien Namensvorschlag geändert
+	Linien Vorreihen und Zückreihen mögllich
+-
 01:
 -
-die Linien und Kurven können im grafischen erstellungsfenster vor und rückgereiht werden.
+Markieren ueberragt die gesamte teilbreite bei Feldrand
 -
 die Fahrgassen Tramlines werden nun richtig angelegt zb ABlinie 15m tramlines 15m 
 dann wird im Erstellungsfendster der Tramlines gleich der richtige Beginnabstand 
 der Linien dargestellt und muss nicht per hand verschoben werden.
+Einstellung der Tramline aussenumfahrung mit zusätzlichem Abstand zb 35cm dann alle linien auf 1470cm (70cmMais 15m Feldspritze)
+-
+Linien Fenster groesser
+Kurven Fenster Groesser und automatisch glaetten möglich
+-
+Ueberlappung kann mit anklicken der maschinenzeile(Oben) deaktiviert werden Maschinenzeile dann hintergrund Violett
+-
+Steer im Headland automatisch deaktivieren/aktivieren wenn steerbutton LINKS unten orange ist bei Grün Normalbetrieb
+-
+Maschineneinstellungster: Maschinenauswahlliste groesser
+-
+bei default Dateiordner wird anstelle von eigene dateien der Programmordner in dem die version läuft hergenommen
+(zB.: c:\AgOpenGps\AgOpenGpsV5\xxxxxxx\AgOpenGps\ für Fields und Vehicle) ->xxxx ist der Programmordner
+-
