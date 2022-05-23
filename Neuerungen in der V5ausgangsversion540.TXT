@@ -2,6 +2,13 @@ AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
 
+04:
+Linien im Hauptfenster Von und auch zurueckschalten möglich
+
+03:
+Uturn Mit einstellung minimaler Lenkradius wird der uturn als ecken gelenkt(normal) oder mit [AutoRadius] als grosses U gefahren.
+Uturneinstellung empfehlung abstand zum rand bei Pflanzenschutz die fahrgassenmitte (bei 15m auf 7,50 einstellen)
+
 02:
 -
 Linien im Grafischen Erstellungsfenster:
