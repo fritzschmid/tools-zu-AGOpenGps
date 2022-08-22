@@ -2,6 +2,12 @@ AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
 
+05:
+PunkteFS das Fenster der Feldvermessung und der Punkte Sammeln und Punkte Suchen mit Antenne möglich 
+weiters können die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
+KML fuer die feldgrenzimport aus den aufgezeichneten punkten kann erstellt werden
+aufrufen im geoeffneten Feld unter Werkzeug-PunkteFS
+
 04:
 Linien im Hauptfenster Von und auch zurueckschalten möglich
 
