@@ -3,16 +3,16 @@ zusatztools für AGOpenGps
 Hallo AGOpenGps Nutzer!
 
 
-Abgeänderte Version von AgopenGps version 4310
+Abgeänderte Version von AgopenGps versionen
 zusatzänderungen für meine bedürfnisse abgeändert in 
 
 Neuerungen.txt 
 
 zu lesen.
 
-Zipdateiinhalt der datei zb AgopenGps_4310_15 in eine v4installation einkopieren
- oder eine ordnerkopie der v4 die installiert ist und hier hin entpacken
- diese AgopenGps_4310_15.exe dann starten. 
+Zipdateiinhalt der datei zb AgopenGps_xxx_xx in eine installation einkopieren
+ oder eine ordnerkopie die installiert ist und hier hin entpacken
+ diese AgopenGps_xxx_xx.exe dann starten. 
 Einstellungen für diese version natürlich auch noch eingeben.
  
 Dann kann sie auch  abwechselnd oder testweise gestartet werden.
