@@ -2,11 +2,23 @@ AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
 
+06:
+Rueckwaertsfahrterkennung bei Singleantenne MIT kompas:
+	bei singleantenne die rueckwaertsfahrterkennung mit imu-kompas verknuepft damit 
+	nicht der winkel fix-fix sondern die fahrzeuggeometrie entscheidend für rueckwaertserkennung
+    WICHTIG! bei programmstart MUSS ca 1m VORWaeRTS gefahren werden damit der kompas mit gps abgeglichen wird.
+
+Lenkmodi zum fahren:
+	Stanley0 = original, Stanley1 = Stanley aehnlich von V4
+	PurePursuit2 = PP original, PP3 = PP3 Test
+
+Steer auch ausserhalb feldgrenze möglich wenn steeroptionsbutton rot bei grüen innerhalb Feld bei gelb innerhalb feld ohne headland
+
 05:
 PunkteFS das Fenster der Feldvermessung und der Punkte Sammeln und Punkte Suchen mit Antenne möglich 
-weiters können die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
+	weiters können die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
 KML fuer die feldgrenzimport aus den aufgezeichneten punkten kann erstellt werden
-aufrufen im geoeffneten Feld unter Werkzeug-PunkteFS
+	aufrufen im geoeffneten Feld unter Werkzeug-PunkteFS
 
 04:
 Linien im Hauptfenster Von und auch zurueckschalten möglich
