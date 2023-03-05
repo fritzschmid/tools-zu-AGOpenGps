@@ -1,65 +1,68 @@
 AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
-08:
-  die Lenkungsberechnung bei PP Look ahead ähnlich der V570 
-	mit kontiunilierlicher annäherung an den jeweiligen Abstand zu den eingestellten Weiten 
-	von LookAhead und LookAheadHold (wenn Drehpunkt(Hinterachse) innerhalb von 15cm ist Holdmodi)
 
-07: 
-	wenn in PunkteFS noch kleine änderungen wie Fläche der aufgezeichneten Punkte mitberechnen...
+11:
+bei Hubwerkssteuerung wird im Steerprotokoll unter GaudianceStatus Hubwerk Bit 4=ab 5=Auf und Tramline Bit6+7 mitgesendet
+	erspart den Empfang der Maschinendaten und in Tram wird der Buttonhintergrund der Tramwiederholung zur Linie gesendet
+	AutosteeerSketch ist auch auf Github
+
+09:
+beim rücksetzen mit gezogenem Anhänger kann das Tool zum Zzugfahrzeug wieder gestreckt werden wenn 
+	der Traktor in der mitte des Bildes angeklickt wird
+
+08: beim Kompas mit Singleantenne kann der kompas neu kalibriert werden in dem 
+	der Traktor in der mitte des Bildes angeklickt wird
+
+07:
+Mit kompas das rueckwaertsfahren optimiert -> positions.designer
+in Punkte FS die fläche mitberechnen
 
 06:
-  Rueckwaertsfahrterkennung bei Singleantenne MIT kompas:
-	bei singleantenne die rueckwaertsfahrterkennung mit imu-kompas verknuepft damit 
-	nicht der winkel fix-fix sondern die fahrzeuggeometrie entscheidend für rueckwaertserkennung
-    WICHTIG! bei programmstart MUSS ca 1m VORWaeRTS gefahren werden damit der kompas mit gps abgeglichen wird.
-
-  Lenkmodi zum fahren:
-	Stanley0 = original, Stanley1 = Stanley aehnlich von V4
-	PurePursuit2 = PP original, PP3 = PP3 Test
-
-  Steer auch ausserhalb feldgrenze möglich wenn steeroptionsbutton rot bei grüen innerhalb Feld bei gelb innerhalb feld ohne headland
+Lenkmodi zum fahren:
+  Stanley0 = original, Stanley1 = Stanley aehnlich V4
+  PurePursuit2 = PP original, PP3 = PP3 mit zusaetzlich steerachse
+Steer auch ausserhalb feldgrenze möglich wenn steeroptionsbutton rot bei grüen innerhalb Feld bei gelb innerhalb feld ohne headland
+bei singleantenne die rueckwaertsfahrt bearbeitet.
 
 05:
-  PunkteFS das Fenster der Feldvermessung und der Punkte Sammeln und Punkte Suchen mit Antenne möglich 
-	weiters können die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
-	Flaeche der Punkte wird errechnet und im jaweiligen sammelbutton angezeigt
+PunkteFS das Fenster der Feldvermessung und der Punkte Sammeln und Punkte Suchen mit Antenne möglich 
+weiters können die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
 KML fuer die feldgrenzimport aus den aufgezeichneten punkten kann erstellt werden
-	aufrufen im geoeffneten Feld unter Werkzeug-PunkteFS
+aufrufen im geoeffneten Feld unter Werkzeug-PunkteFS
 
 04:
-  Linien im Hauptfenster Von und auch zurueckschalten möglich
+Linien im Hauptfenster Von und auch zurueckschalten möglich
 
 03:
-  Uturn Mit einstellung minimaler Lenkradius wird der uturn als ecken gelenkt(normal) oder mit [AutoRadius] als grosses U gefahren.
-  Uturneinstellung empfehlung abstand zum rand bei Pflanzenschutz die fahrgassenmitte (bei 15m auf 7,50 einstellen)
+Uturn Mit einstellung minimaler Lenkradius wird der uturn als ecken gelenkt(normal) oder mit [AutoRadius] als grosses U gefahren.
+Uturneinstellung empfehlung abstand zum rand bei Pflanzenschutz die fahrgassenmitte (bei 15m auf 7,50 einstellen)
 
 02:
 -
-  Linien im Grafischen Erstellungsfenster:
+Linien im Grafischen Erstellungsfenster:
 	Arbeitsbreite anstelle von Abstand zur grenze
 	Linien Namensvorschlag geändert
 	Linien Vorreihen und Zückreihen mögllich
 -
 01:
 -
-  Markieren ueberragt die gesamte teilbreite bei Feldrand
+Markieren ueberragt die gesamte teilbreite bei Feldrand
 -
-  die Fahrgassen Tramlines werden nun richtig angelegt zb ABlinie 15m tramlines 15m 
-	dann wird im Erstellungsfendster der Tramlines gleich der richtige Beginnabstand 
-	der Linien dargestellt und muss nicht per hand verschoben werden.
-	Einstellung der Tramline aussenumfahrung mit zusätzlichem Abstand zb 35cm dann alle linien auf 1470cm (70cmMais 15m Feldspritze)
+die Fahrgassen Tramlines werden nun richtig angelegt zb ABlinie 15m tramlines 15m 
+dann wird im Erstellungsfendster der Tramlines gleich der richtige Beginnabstand 
+der Linien dargestellt und muss nicht per hand verschoben werden.
+Einstellung der Tramline aussenumfahrung mit zusätzlichem Abstand zb 35cm dann alle linien auf 1470cm (70cmMais 15m Feldspritze)
 -
-  Linien Fenster groesser
-  Kurven Fenster Groesser und automatisch glaetten möglich
+Linien Fenster groesser
+Kurven Fenster Groesser und automatisch glaetten möglich
 -
-  Ueberlappung kann mit anklicken der maschinenzeile(Oben) deaktiviert werden Maschinenzeile dann hintergrund Violett
+Ueberlappung kann mit anklicken der maschinenzeile(Oben) deaktiviert werden Maschinenzeile dann hintergrund Violett
 -
-  Steer im Headland automatisch deaktivieren/aktivieren wenn steerbutton LINKS unten orange ist bei Grün Normalbetrieb
+Steer im Headland automatisch deaktivieren/aktivieren wenn steerbutton LINKS unten orange ist bei Grün Normalbetrieb
 -
-  Maschineneinstellungster: Maschinenauswahlliste groesser
+Maschineneinstellungster: Maschinenauswahlliste groesser
 -
-  bei default Dateiordner wird anstelle von eigene dateien der Programmordner in dem die version läuft hergenommen
-	(zB.: c:\AgOpenGps\AgOpenGpsV5\xxxxxxx\AgOpenGps\ für Fields und Vehicle) ->xxxx ist der Programmordner
+bei default Dateiordner wird anstelle von eigene dateien der Programmordner in dem die version läuft hergenommen
+(zB.: c:\AgOpenGps\AgOpenGpsV5\xxxxxxx\AgOpenGps\ für Fields und Vehicle) ->xxxx ist der Programmordner
 -
