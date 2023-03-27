@@ -1,10 +1,18 @@
 AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
+13:
+Bei Messpunkte:
+wenn zb Maschine mit 1m Arbeitsbreite angelegt wird (als messmaschine/messlatte anlegen) 
+und eine Linie aufgerufen wird 
+dann unter Werkzeug - Messpunkte Kompas0 Button betätigen 
+wird die Abweichung in Anzahl Arbeitsbreiten(je 1m) und Abweichnung zur solllinie in cm
+MIT Winkel zur Linie dargestellt. zb zum messen einer Grenzlinie,...
+ohne aufruf einer Linie ist das Feld Richtung Norden fixiert.
 
 12:
-Uhr rechts Unten im Feld
-Uturn Autoradius noch fÃ¼r manuelles Uturn abgeÃ¤ndert
+Steering auch ohne Boundary möglich 
+korrektur bei manuellem Uturn bei Autoradius
 
 11:
 bei Hubwerkssteuerung wird im Steerprotokoll unter GaudianceStatus Hubwerk Bit 4=ab 5=Auf und Tramline Bit6+7 mitgesendet
@@ -12,7 +20,7 @@ bei Hubwerkssteuerung wird im Steerprotokoll unter GaudianceStatus Hubwerk Bit 4
 	AutosteeerSketch ist auch auf Github
 
 09:
-beim rÃ¼cksetzen mit gezogenem AnhÃ¤nger kann das Tool zum Zzugfahrzeug wieder gestreckt werden wenn 
+beim rücksetzen mit gezogenem Anhänger kann das Tool zum Zzugfahrzeug wieder gestreckt werden wenn 
 	der Traktor in der mitte des Bildes angeklickt wird
 
 08: beim Kompas mit Singleantenne kann der kompas neu kalibriert werden in dem 
@@ -20,23 +28,23 @@ beim rÃ¼cksetzen mit gezogenem AnhÃ¤nger kann das Tool zum Zzugfahrzeug wieder g
 
 07:
 Mit kompas das rueckwaertsfahren optimiert -> positions.designer
-in Punkte FS die flÃ¤che mitberechnen
+in Punkte FS die fläche mitberechnen
 
 06:
 Lenkmodi zum fahren:
   Stanley0 = original, Stanley1 = Stanley aehnlich V4
   PurePursuit2 = PP original, PP3 = PP3 mit zusaetzlich steerachse
-Steer auch ausserhalb feldgrenze mÃ¶glich wenn steeroptionsbutton rot bei grÃ¼en innerhalb Feld bei gelb innerhalb feld ohne headland
+Steer auch ausserhalb feldgrenze möglich wenn steeroptionsbutton rot bei grüen innerhalb Feld bei gelb innerhalb feld ohne headland
 bei singleantenne die rueckwaertsfahrt bearbeitet.
 
 05:
-PunkteFS das Fenster der Feldvermessung und der Punkte Sammeln und Punkte Suchen mit Antenne mÃ¶glich 
-weiters kÃ¶nnen die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
+PunkteFS das Fenster der Feldvermessung und der Punkte Sammeln und Punkte Suchen mit Antenne möglich 
+weiters können die Punkte wiederholt gesucht (distanz zu Punkt) daraus ABs erstellt werden
 KML fuer die feldgrenzimport aus den aufgezeichneten punkten kann erstellt werden
 aufrufen im geoeffneten Feld unter Werkzeug-PunkteFS
 
 04:
-Linien im Hauptfenster Von und auch zurueckschalten mÃ¶glich
+Linien im Hauptfenster Von und auch zurueckschalten möglich
 
 03:
 Uturn Mit einstellung minimaler Lenkradius wird der uturn als ecken gelenkt(normal) oder mit [AutoRadius] als grosses U gefahren.
@@ -46,8 +54,8 @@ Uturneinstellung empfehlung abstand zum rand bei Pflanzenschutz die fahrgassenmi
 -
 Linien im Grafischen Erstellungsfenster:
 	Arbeitsbreite anstelle von Abstand zur grenze
-	Linien Namensvorschlag geÃ¤ndert
-	Linien Vorreihen und ZÃ¼ckreihen mÃ¶gllich
+	Linien Namensvorschlag geändert
+	Linien Vorreihen und Zückreihen mögllich
 -
 01:
 -
@@ -56,17 +64,17 @@ Markieren ueberragt die gesamte teilbreite bei Feldrand
 die Fahrgassen Tramlines werden nun richtig angelegt zb ABlinie 15m tramlines 15m 
 dann wird im Erstellungsfendster der Tramlines gleich der richtige Beginnabstand 
 der Linien dargestellt und muss nicht per hand verschoben werden.
-Einstellung der Tramline aussenumfahrung mit zusÃ¤tzlichem Abstand zb 35cm dann alle linien auf 1470cm (70cmMais 15m Feldspritze)
+Einstellung der Tramline aussenumfahrung mit zusätzlichem Abstand zb 35cm dann alle linien auf 1470cm (70cmMais 15m Feldspritze)
 -
 Linien Fenster groesser
-Kurven Fenster Groesser und automatisch glaetten mÃ¶glich
+Kurven Fenster Groesser und automatisch glaetten möglich
 -
 Ueberlappung kann mit anklicken der maschinenzeile(Oben) deaktiviert werden Maschinenzeile dann hintergrund Violett
 -
-Steer im Headland automatisch deaktivieren/aktivieren wenn steerbutton LINKS unten orange ist bei GrÃ¼n Normalbetrieb
+Steer im Headland automatisch deaktivieren/aktivieren wenn steerbutton LINKS unten orange ist bei Grün Normalbetrieb
 -
 Maschineneinstellungster: Maschinenauswahlliste groesser
 -
-bei default Dateiordner wird anstelle von eigene dateien der Programmordner in dem die version lÃ¤uft hergenommen
-(zB.: c:\AgOpenGps\AgOpenGpsV5\xxxxxxx\AgOpenGps\ fÃ¼r Fields und Vehicle) ->xxxx ist der Programmordner
+bei default Dateiordner wird anstelle von eigene dateien der Programmordner in dem die version läuft hergenommen
+(zB.: c:\AgOpenGps\AgOpenGpsV5\xxxxxxx\AgOpenGps\ für Fields und Vehicle) ->xxxx ist der Programmordner
 -
