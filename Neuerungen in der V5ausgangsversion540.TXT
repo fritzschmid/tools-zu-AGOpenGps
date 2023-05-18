@@ -2,15 +2,14 @@ AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
 
-16:	
-für Dual systeme einen HeadingFilter un den Headingsettings mit Regler zum justieren
-	0 kein einfluss
-	1-50 dabei wird der störwinkel ab wann das gpsHeading nicht verwendet werden soll eingestellt 
-		und auch deren Anteil
-beispiel: 
-	1 -> der headingunterschied zu letzten richtung > 16 grad. Ergebnis = 99%gps +  1%FixFixHeading 
-	50-> der headingunterschied zu letzten richtung >  3 grad. Ergebnis = 50%gps + 50%FixFixHeading 
-   wird erst getestet!!!
+17:
+Steer Atomatik On Off bei Headland, es gibt 2 Werte in m fuer Ein und Aus der Lenkung
+	einzustellen in Vehicle Settings Fahrzeug Abmessungen
+
+16:	Flags Positionieren FlagFenster Zahnradbutton:
+		Farbe fuer Flag 
+		Position des Flags in m mittig vor FahrzeugHINTERACHSE und dann Button Flag Positiomieren
+		OK für Übernehmen
 
 15: 
 Steermode4 und in steerSettings neuer Reiter Vehicle mit den Reglern:
