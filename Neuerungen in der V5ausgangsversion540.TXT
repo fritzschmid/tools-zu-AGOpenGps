@@ -1,7 +1,9 @@
 AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
-
+18:
+es können 2 Berechnungslinien bei den Linien ausgewählt werden die Optisch am Feld angezeigt werden,
+	und die Entfernung in m mit Bezeichnung der Linie Links Unten angezeigt wird(Mass=PivotMittig zu Fahrzeug)
 17:
 Steer Atomatik On Off bei Headland, es gibt 2 Werte in m fuer Ein und Aus der Lenkung
 	einzustellen in Vehicle Settings Fahrzeug Abmessungen
