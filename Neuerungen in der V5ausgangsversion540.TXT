@@ -1,6 +1,11 @@
 AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
+
+19:
+in Werkzeug Messpunkte Reiter KML einen kompletten Import von Felddaten aus KML Dateien
+	Importiert wird neben Boundary(Feldgrenze) auch ABLinien Kurven und Flags
+	bei komplettem Neuimport kann auch das Feld auf die ersten Koordinaten der Kml gelegt werden.
 18:
 es können 2 Berechnungslinien bei den Linien ausgewählt werden die Optisch am Feld angezeigt werden,
 	und die Entfernung in m mit Bezeichnung der Linie Links Unten angezeigt wird(Mass=PivotMittig zu Fahrzeug)
