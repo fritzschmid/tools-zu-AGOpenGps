@@ -2,6 +2,9 @@ AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
 
+20:
+SteerMode4 abänderungen und Testregler in Lenkungseinstellungen
+
 19:
 in Werkzeug Messpunkte Reiter KML einen kompletten Import von Felddaten aus KML Dateien
 	Importiert wird neben Boundary(Feldgrenze) auch ABLinien Kurven und Flags
