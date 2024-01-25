@@ -1,9 +1,13 @@
 AOG V5.40 ausgangsversion von Brain Tischler
 
 Abaenderungen unterversion:
+21:
+in den Linien und Kurven kann temporär eine Linie oder Kurve (auch mehrere) breiten manuell markiert werden 
+	um somit das abschalten von Sectioms zu ermoeglichen. Nach loeschen dieser mauell markierten Sections wieder bearbeitbar.
+	Wird beim Feld speichern verworfen!
 
 20:
-SteerMode4 abänderungen und Testregler in Lenkungseinstellungen
+SteerMode4 abänderungen in Lenkungseinstellungen und Berechnung
 
 19:
 in Werkzeug Messpunkte Reiter KML einen kompletten Import von Felddaten aus KML Dateien
