@@ -11,6 +11,10 @@ diese importierten Dateizeilen können als Feldgrenze, Suchkoordinaten Hilfslini
 aus den fertigen Datenzeilen kann dann eine KML erstellt und diese dann als Grenze importiert werden. 
 Auch späteres verändern von Punkten und dabei die Neue Feldgrenze automatisch ersetllen ist dann möglich.
 
+Koordinateneigabe mit Umrechnung zum Suchen und Anlegen von Punkten aus:
+WebMercator; UTM32N; UTM33N; MGI GK M34,M31,M28 ;BMN M34,M31,M28 
+zb. aus Kataster.gv.at moglich aber umrechnung mur für Hobbyanwendung und nicht für Grenzstreit! das muss ein Geometer dann richtigstellen.
+
 Wird eine Spur einschaltet ist die Ausrichtung dann der Spur entlang! Dabei wird die Spurabweichung in[m] und cm angezeigt wenn das Gerät 100cm Arbeitsbreite hat.
 
 IsoXml Taskdata wird mit Feldnamen im unterordner v4 abgelegt um besser auf andere terminals verwendbar und unverwechselbarer ist (Hausacker_TASKDATA.xml)
